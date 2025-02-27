@@ -12,6 +12,8 @@ import BookingForm from './components/BookingForm';
 import ProtectedRoute from './ProtectedRoute'; // Import your ProtectedRoute component
 import UpcomingAppointments from './components/UpcomingAppointments';
 
+console.log("dfdf");
+
 function App() {
   const [loading, setLoading] = useState(true);
   const [loggedIn, setLoggedIn] = useState(false);
